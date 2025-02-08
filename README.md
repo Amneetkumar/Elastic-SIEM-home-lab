@@ -24,8 +24,11 @@ This project sets up a home lab using the Elastic Stack Security Information and
 
 ### 3. Install and Configure Elastic Agent
 1. In Kibana, go to **Integrations** → Search for **Elastic Defend** → Install
+<img src="https://i.imgur.com/8zt3Az2.png" height="80%" width="80%"/>
 2. Copy the installation command for Linux
+<img src="https://i.imgur.com/er2CFiP.png" height="80%" width="80%"/>
 3. In Kali, execute the command in the terminal
+ <img src="https://i.imgur.com/q35Rz0J.png" height="80%" width="80%"/>  
 4. Verify with: `sudo systemctl status elastic-agent.service`
 
 ### 4. Generate Security Events
@@ -35,6 +38,8 @@ This project sets up a home lab using the Elastic Stack Security Information and
    sudo nmap -sS <target-ip>
    sudo nmap -p- <target-ip>
    ```
+<img src="https://i.imgur.com/pHvpRAG.png" height="80%" width="80%"/> 
+
 2. Perform privilege escalation attempts (with caution)
 
 ### 5. Analyze Security Events
